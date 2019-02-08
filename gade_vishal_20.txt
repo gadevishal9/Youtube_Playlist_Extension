@@ -1,0 +1,6 @@
+Answer 3)
+BFS ,21, Start,A,C,F, Goal
+DFS , 61 , Start , A,B,C,D,F,G,E,H,Goal.
+GBFS , 21, Start, A ,D G, Goal . 
+UCS , 18 , Start , A ,C D,G , Goal
+A* , 18, Start , A ,C, D,G , Goal

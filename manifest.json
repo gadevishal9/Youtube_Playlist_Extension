@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Url_opener",
+  "version": "0.1"
+,
+"content_scripts": [
+  {
+    "matches": [
+      "https://www.youtube.com/*"
+    ],
+    "js": ["jquery.js","content.js"]
+  }
+]
+,
+"browser_action": {
+  "default_icon": "vishal.png"
+},
+
+"background": {
+  "scripts": ["jquery.js","background.js"]
+},
+"permissions": [
+  "contextMenus"
+  ,
+  "activeTab"
+]
+}
